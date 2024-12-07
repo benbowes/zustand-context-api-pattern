@@ -1,6 +1,8 @@
 # A Zustand + Context API pattern for making use of the best of both worlds.
 
-This comes from here: https://tkdodo.eu/blog/zustand-and-react-context
+This pattern comes from comes from here: https://tkdodo.eu/blog/zustand-and-react-context
+
+And I discovered it here from Cosden (https://www.youtube.com/@cosdensolutions): https://www.youtube.com/watch?v=1Fi4hK7L1ec
 
 ### Getting started
 
@@ -12,7 +14,14 @@ Main files to look at are `CountProvider.tsx` and `App.tsx`
 
 ...
 
-The original React + TypeScript + Vite setup files documentation is as follows...
+The original React + TypeScript + Vite setup documentation entries via (npm create vite@latest my-app -- --template react-ts) are as follows...
+
+|
+|
+|
+|
+
+...
 
 ## React + TypeScript + Vite
 
