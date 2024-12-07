@@ -20,7 +20,7 @@ You can check the console logs to see the results.
 
 Every component renders on first load - expected. However, only the componets that subcribe to the Zustand store via the `useCountStore` hook re-render when the `CountProvider` is updated via the Zustand commands.
 
-## The key benefits of this pattern as listed here by [`tkdodo`](https://tkdodo.eu/blog/zustand-and-react-context) for this pattern are real.
+### The key benefits of this pattern as listed here by [`tkdodo`](https://tkdodo.eu/blog/zustand-and-react-context) for this pattern are real.
 
 - everything under a context api provider is not unnecessarily re-rendered.
 - testing becomes easier, as you can provide a component that is reliant on Zustand with initial state - so setup and teardown of tests will be easy with this pattern.
