@@ -16,7 +16,9 @@ The main files to look at are `CountProvider.tsx` and `App.tsx`
 
 When adding a `<OtherComponentThatDoesNotUseZustand />` under the context api provider `<CountProvider />`, the `<OtherComponentThatDoesNotUseZustand />` does not re-render. It is not affected by changes in state by Zustand. This is very good!.
 
-You can check the console logs to see the results. Every component renders on first load. However, only the componets that use Zustand re-render, when the `CountProvider` is updated via Zustand.
+You can check the console logs to see the results.
+
+Every component renders on first load - expected. However, only the componets that subcribe to the Zustand store via the `useCountStore` hook re-render when the `CountProvider` is updated via the Zustand commands.
 
 # The key benefits of this pattern as listed here by [`tkdodo`](https://tkdodo.eu/blog/zustand-and-react-context) for this pattern are real.
 
