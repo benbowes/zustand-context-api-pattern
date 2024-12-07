@@ -12,16 +12,11 @@ And I discovered it here from Cosden (https://www.youtube.com/@cosdensolutions):
 
 Main files to look at are `CountProvider.tsx` and `App.tsx`
 
-...
+<br>
 
 The original React + TypeScript + Vite setup documentation entries via (npm create vite@latest my-app -- --template react-ts) are as follows...
 
-|
-|
-|
-|
-
-...
+<br>
 
 ## React + TypeScript + Vite
 
