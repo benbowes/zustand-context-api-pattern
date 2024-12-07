@@ -10,7 +10,16 @@ And I discovered it here from Cosden (https://www.youtube.com/@cosdensolutions):
 
 `npm run dev`
 
-Main files to look at are `CountProvider.tsx` and `App.tsx`
+The main files to look at are `CountProvider.tsx` and `App.tsx`
+
+## Notes
+
+When adding a `<OtherComponentThatDoesNotUseZustand />` under the context api provider `<CountProvider />`, the `<OtherComponentThatDoesNotUseZustand />` does not re-render. It is not affected by changes in state by Zustand. This is very good!.
+
+# The key benefits of this pattern as listed here by [`tkdodo`](https://tkdodo.eu/blog/zustand-and-react-context) for this pattern are real.
+
+- everything under a context api provider is not unnecessarily re-rendered.
+- testing becomes easier, as you can provide a component that is reliant on Zustand with initial state - so setup and teardown of tests will be easy with this pattern.
 
 <br>
 
