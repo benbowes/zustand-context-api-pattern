@@ -27,5 +27,5 @@ function Component() {
 
 function OtherComponentThatDoesNotUseZustand() {
   console.log("OtherComponentThatDoesNotUseZustand rendered");
-  return <div>Some other component</div>;
+  return <div>Some other component thast does not use Zustand</div>;
 }
