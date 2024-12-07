@@ -22,7 +22,7 @@ Every component renders on first load - expected. However, only the components t
 
 ---
 
-#### The key benefits of this pattern as listed here by [`tkdodo`](https://tkdodo.eu/blog/zustand-and-react-context) for this pattern.
+#### What I see as the key benefits of this pattern.
 
 - everything under a context api provider is not unnecessarily re-rendered.
 - testing becomes easier, as you can provide a component that is reliant on Zustand with initial state - so setup and teardown of tests will be easy with this pattern.
