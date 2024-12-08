@@ -1,7 +1,9 @@
 import { useCountStore, CountStore } from "./CountProvider";
 
 export default function Buttons() {
-  const { increment, decrement } = useCountStore((state: CountStore) => state);
+  const increment = useCountStore((state: CountStore) => state.increment);
+  const decrement = useCountStore((state: CountStore) => state.decrement);
+
   console.log("Buttons rendered");
   return (
     <div>
